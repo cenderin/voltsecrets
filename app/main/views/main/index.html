@@ -1,0 +1,15 @@
+<:Title>
+  Home
+
+<:Body>
+  <h1>Home</h1>
+
+    <form e-submit="add_secret" role="form">
+    <div class="form-group">
+      <label>Name</label>
+      <input value="{{ page._name }}">
+      <label>Secret</label>
+      <input value="{{ page._text }}">
+      <input type="submit" value="Add Bookmark" />
+    </div>
+  </form>
